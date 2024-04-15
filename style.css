@@ -1,1 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3498db, #c0392b); /* Gradient background */
+}
+
+.wrap {
+  width: 370px;
+  border-radius: 7px;
+  padding: 25px 30px;
+  background: #ecf0f1; /* Light background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+}
+
+.wrap header {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600; /* Bold header */
+  color: #2980b9; /* Header color */
+  margin-bottom: 20px; /* Margin below header */
+}
+
+.wrap form {
+  margin: 0; /* Remove default margin */
+}
+
+form .row {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+form .row label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #2980b9; /* Label color */
+}
+
+form :where(textarea, select, button, input[type="file"]) {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}
+
+form .row textarea {
+  resize: none;
+  height: 110px;
+  font-size: 15px;
+  padding: 8px 10px;
+  border: 1px solid #ccc; /* Border color */
+}
+
+form .row .outer {
+  height: 48px;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Border color */
+}
+
+form .row select {
+  font-size: 14px;
+}
+
+form button {
+  height: 52px;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  background: #2980b9; /* Button background color */
+  border: none;
+  transition: background 0.3s ease; /* Button background transition */
+}
+
+form button:hover {
+  background: #3498db; /* Button background color on hover */
+}
 

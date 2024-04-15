@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Text to Speech Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>Text to Speech</header>
+    <form action="index.html">
+      <div class="row">
+        <label>Enter Text</label>
+        <textarea id="text-to-convert"></textarea>
+      </div>
+      <div class="row">
+        <label>Upload Text File</label>
+        <input type="file" id="file-input" accept=".txt">
+      </div>
+      <div class="row">
+        <label>Select Voice</label>
+        <div class="outer">
+          <select id="voice-select">
+            <!-- Options will be dynamically populated by JavaScript -->
+          </select>
+        </div>
+      </div>
+      <button id="convert-button">Convert to Speech</button>
+      <button id="pronunciation-feedback">Pronunciation Feedback</button>
+      <a id="download-link" download="output_audio.wav"></a>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

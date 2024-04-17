@@ -32,7 +32,6 @@ function textToSpeech(text) {
         synth.speak(utterance);
     });
 }
-
 function saveAudio(blob) {
     const url = URL.createObjectURL(blob);
     downloadLink.href = url;

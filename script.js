@@ -9,7 +9,6 @@ let synth = window.speechSynthesis;
 let isSpeaking = false;
 
 voices();
-
 function voices() {
     voiceList.innerHTML = "";
     synth.addEventListener("voiceschanged", () => {

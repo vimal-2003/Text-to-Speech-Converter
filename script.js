@@ -90,4 +90,3 @@ pronunciationFeedback.addEventListener("click", () => {
         alert("Please provide both the word/phrase and its phonetic spelling.");
     }
 });
-

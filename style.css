@@ -20,7 +20,7 @@ body {
   width: 370px;
   border-radius: 7px;
   padding: 25px 30px;
-  background: #ecf0f1; /* Light background color */
+  background: #ecf0f;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
 }
 
